@@ -34,8 +34,9 @@ def using_insert(list_of_programming_languages,another_language)
   another_language = "Python"
   list_of_programming_languages.insert(3)=another_language
 end
-def using_uniq(array)
-  array.uniq()
+def using_uniq(haircuts)
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  new_array = haircuts.uniq()
 end
 def using_flatten(instruments)
   instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
