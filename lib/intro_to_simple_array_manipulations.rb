@@ -44,8 +44,9 @@ def using_flatten(instruments)
 end
 def using_delete(instructors)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = instructors.delete(1)
+  no_offense_steven = instructors.delete("Steven")
 end
-def using_delete_at(instructors,integer)
-  
+def using_delete_at(famous_robots,integer)
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  deleted_robot = famous_robots.delete(2)
 end
