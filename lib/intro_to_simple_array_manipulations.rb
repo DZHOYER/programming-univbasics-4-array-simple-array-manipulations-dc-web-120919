@@ -27,7 +27,7 @@ def using_concat(my_favorite_things,more_favs)
 end
 
 def using_insert(list_of_programming_languages,another_language)
-  another_language.insert(3)
+  list_of_programming_languages=another_language.insert(3)
 end
 
 def using_uniq(haircuts)
