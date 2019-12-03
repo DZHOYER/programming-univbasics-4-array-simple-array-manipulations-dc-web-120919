@@ -32,7 +32,7 @@ def using_insert(list_of_programming_languages,another_language)
 end
 
 def using_uniq(haircuts)
-  new_array = haircuts.uniq()
+  haircuts.uniq()
 end
 
 def using_flatten(instruments)
@@ -40,7 +40,7 @@ def using_flatten(instruments)
 end
 
 def using_delete(instructors,string)
-  no_offense_steven = instructors.delete(string)
+  instructors.delete(string)
 end
 
 def using_delete_at(famous_robots,integer)
